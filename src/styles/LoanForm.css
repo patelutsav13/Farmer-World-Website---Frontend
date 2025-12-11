@@ -1,0 +1,92 @@
+/* LoanForm Styles */
+.loan-form-container {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 25px 30px;
+  background-color: #f9f9f9;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.loan-form-container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2a7f62;
+}
+
+.loan-form-container form label {
+  display: block;
+  margin-bottom: 15px;
+  font-weight: 500;
+  color: #333;
+}
+
+.loan-form-container input[type="text"],
+.loan-form-container input[type="number"],
+.loan-form-container input[type="file"],
+.loan-form-container select {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  box-sizing: border-box;
+  margin-top: 5px;
+  background-color: #fff;
+}
+
+.loan-form-container input[type="file"] {
+  padding: 6px;
+  background-color: #f2f2f2;
+}
+
+.loan-form-container button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #2a7f62;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 20px;
+  transition: background-color 0.3s;
+}
+
+.loan-form-container button:hover {
+  background-color: #256b54;
+}
+
+.loan-form-container p {
+  color: #2a7f62;
+  font-weight: 500;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+/* Check Form Section */
+.check-form-container {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.check-form-container .form-data-display {
+  text-align: left;
+  margin-top: 20px;
+  padding: 15px;
+  background-color: #eef7f3;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.check-form-container a {
+  color: #1e88e5;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.check-form-container a:hover {
+  text-decoration: underline;
+}

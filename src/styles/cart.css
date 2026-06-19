@@ -1,0 +1,110 @@
+/* Cart Page Styling */
+
+.cart-container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 0 24px;
+}
+
+.cart-card {
+  background: #ffffff;
+  border: 1px solid rgba(82, 183, 136, 0.12);
+  border-radius: var(--radius-md);
+  padding: 32px;
+  box-shadow: var(--shadow-md);
+}
+
+.cart-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 24px;
+  border-bottom: 2px solid rgba(82, 183, 136, 0.1);
+  padding-bottom: 12px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 0;
+  border-bottom: 1px solid rgba(82, 183, 136, 0.08);
+}
+
+.cart-item:last-child {
+  border-bottom: none;
+}
+
+.cart-item-details h4 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--primary-light);
+}
+
+.cart-item-details p {
+  margin: 4px 0 0 0;
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.cart-item-price {
+  font-weight: 700;
+  color: var(--primary);
+  font-size: 1.1rem;
+}
+
+/* Cart Summary & Order Form */
+.cart-summary {
+  margin-top: 32px;
+  background: #fafdfa;
+  border: 1px solid rgba(82, 183, 136, 0.1);
+  padding: 24px;
+  border-radius: var(--radius-sm);
+}
+
+.cart-total {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.3rem;
+  font-weight: 700;
+  color: var(--primary);
+  margin-bottom: 24px;
+}
+
+.order-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.order-form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.order-form-group label {
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: var(--primary-light);
+  margin-bottom: 6px;
+}
+
+.order-form-group input,
+.order-form-group select,
+.order-form-group textarea {
+  padding: 10px 14px;
+  border: 1px solid rgba(82, 183, 136, 0.2);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 0.95rem;
+}
+
+.order-form-group input:focus,
+.order-form-group select:focus,
+.order-form-group textarea:focus {
+  border-color: var(--secondary);
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(82, 183, 136, 0.1);
+}
